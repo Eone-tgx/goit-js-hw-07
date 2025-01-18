@@ -32,7 +32,7 @@ function imageTemplate(image) {
 }
 
 function imagesTemplate(images) {
-  return images.map(imageTemplate);
+  return images.map(imageTemplate).join(" ");
 }
 
 const markup = imagesTemplate(images);
